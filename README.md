@@ -15,6 +15,10 @@ Most recently I established **ScienceLogic's first India product-engineering sit
 
 Before that, backend architecture for education and job platforms across Indonesia — multi-tenant systems at 600k users and 100k concurrent, P95 held near 150ms.
 
+### What I've been building
+
+[**monitoring-integration-agent**](https://github.com/joun-kazmi/monitoring-integration-agent) — an agent that writes Prometheus exporters and SNMP collector configs from API docs and MIBs, then proves they work by running them against the real target and diffing scraped metrics against a spec it committed to earlier. Validation costs zero LLM tokens, so failures get classified deterministically and repaired with live evidence instead of a guess. Five real runs, all verified, committed under `examples/runs/`.
+
 ### What I work with
 
 **Languages** Python · JavaScript · SQL
